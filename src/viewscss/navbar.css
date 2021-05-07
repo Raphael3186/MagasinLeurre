@@ -3,8 +3,8 @@
 
 
 body {
-    background: #000;
-    min-height: 123vh;
+    background-color: #000;
+    min-height: 115vh;
     margin: 0;
     color: #fff;
     display: flex;

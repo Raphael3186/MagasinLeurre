@@ -1,6 +1,7 @@
 
 main  div.bienvenue{
-    background-image:url(/assets/1da61c3d381fc49a93457d4d32d293e1.jpg);
+    background-image:url(/assets/1da61c3d381fc49a93457d4d32d293e1.jpg) 
+    no-repeat;
     padding: 60px;
 }
 
