@@ -1,0 +1,50 @@
+
+main  div.bienvenue{
+    background-image:url(/assets/1da61c3d381fc49a93457d4d32d293e1.jpg);
+    padding: 60px;
+}
+
+main div.bienvenue p{
+   margin-top: 256px;
+   font-size: xx-large;
+   font-weight: bold;
+}
+main div.bienvenue div.container div.row div.col h1{
+   margin-top: 256px;
+   font-size: xx-large;
+   font-weight: bold;
+}
+
+main div.bienvenue div.container div.col h3{
+   margin-top: 256px;
+   font-size: xx-large;
+   font-weight: bold;
+}
+
+main div.bienvenue{
+   font-size: 80px ;
+}
+
+ .products{
+    grid-area: produits;
+    margin-top: 10%;
+   
+ }
+
+ main section{
+   top: 0%;
+
+ }
+
+ .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p{
+   margin-top: 0px;
+   margin-bottom: 4.5rem;
+   font-weight: 300;
+   line-height: 1.2;
+   font-size: 30px;
+}
+
+.accordion-body p{
+   color: black;
+   size: 2px;
+}

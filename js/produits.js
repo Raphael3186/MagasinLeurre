@@ -22,3 +22,9 @@ let Chatterbaits = {
     Prix = "12.00€",
     Description = "Ce produits est particulièrement appressié par les bochets utilisable à n'importe quel saison",
 }
+
+let products = [];
+
+products.push(Cuillière,LeurreSouple,Crankbaits,Chatterbaits);
+
+console.log(products[1].Prix);
