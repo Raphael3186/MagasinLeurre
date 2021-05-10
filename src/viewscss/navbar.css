@@ -4,7 +4,6 @@
 
 body {
     background-color: #000;
-    min-height: 115vh;
     margin: 0;
     color: #fff;
     display: flex;
@@ -15,7 +14,6 @@ body {
 }
 
 header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

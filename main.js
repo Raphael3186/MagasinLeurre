@@ -1,5 +1,10 @@
-window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky", windows.scrollY > 0);
-})
-        
+import { App } from './js/app.js';
+import { Router } from '/js/router.js';
+
+const app = new App();
+Router.run(app);
+
+
+window.addEventListener('hashchange', () => {
+    Router.run(app);
+});
