@@ -1,0 +1,57 @@
+<form class="row g-3" style="width: 50%;" id="panier">
+    <legend><center>Gestion du panier</center></legend>
+    <div class="col-md-12">
+      <label class="form-label">Article</label>
+      <input type="text" class="form-control" id="nomArticle">
+    </div>
+    <div class="col-md-12">
+      <label class="form-label">Quantité</label>
+      <input type="number" class="form-control" id="qte">
+    </div>
+    <div class="col-md-12">
+      <label class="form-label">Prix</label>
+      <input type="number" class="form-control" id="prix">
+    </div>
+    <div class="col-12">
+      <center><button type="submit" class="btn btn-primary" onclick="ajouter()">Ajouter</button></center>
+    </div>
+  </form>
+<section class="container"><center>
+    <article class="well from-inline pull-left col-lg-5">
+        <legend>Contenue du panier</legend>
+        <table id="tableau" class="table">
+            <thead>
+                <tr>
+                    <th>nom</th>
+                    <th>Qte</th>
+                    <th>Prix unitaire</th>
+                    <th>Prix de le ligne</th>
+                    <th>Supprimer</th>
+                    <th>Procédé au paiement</th>
+                </tr>
+                <tr>
+                    <td ></td>
+                    <td></td>
+                    <td ></td>
+                    <td></td>
+                    <td>
+                        <button class="btn btn-primary" type="submit" onclick="supprimer(this.parentNode.parentNode.cells[0].innerHTML)">
+                            <span class="glyphicon glyphicon-remove"></span>
+                            Retirer
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary" type="submit">
+                            <span class="glyphicon glyphicon-remove"></span>
+                            GO
+                        </button>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <label>Prix total du panier</label>:
+        <label id="prixTotal"></label>
+        <label id="nbreLigne"></label>    
+    </article>
+</center></section>

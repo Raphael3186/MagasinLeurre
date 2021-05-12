@@ -21,4 +21,4 @@ export class App {
 
     document.body.innerHTML = this.pageContent;
     }
-}
+};

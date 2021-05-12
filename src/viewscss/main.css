@@ -49,3 +49,9 @@ main div.bienvenue{
    color: black;
    size: 2px;
 }
+
+form {
+   display: flex;
+   align-self: center;
+}
+}
