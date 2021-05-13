@@ -1,0 +1,24 @@
+{ 
+    "produits": [
+        {
+            "nom": "Cuillère",
+            "desciption": "Ce produit est parfait pour la pêche de la truite en rivière mais peut également être utilisé sur la pêche du carnasier.",
+            "prix": "5.60€"
+        },
+        {
+            "nom": "Leurre Souple",
+            "desciption": "Ce produit est utilisé pour la pêche du carnasier notament le sandre,brochet et pêche en rivière",
+            "prix": "8.00€"
+        },
+        { 
+            "nom": "Crankbaits",
+            "desciption": "Ce produits est particulièrement appressié par les bochets utilisable à n'importe quel saison",
+            "prix": "12.00€"
+        }
+
+    ]
+}       
+            
+
+
+
